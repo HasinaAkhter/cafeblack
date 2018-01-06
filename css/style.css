@@ -1,0 +1,245 @@
+/*******************************************
+           GENERAL
+********************************************/
+
+*{
+  box-sizing: border-box;	
+}
+
+body{
+  background-color: #faf0e6;
+  margin: 0;  
+  font-family:  'Lobster Two', cursive;
+  font-size: 1.5rem;
+}
+
+a{
+	text-decoration: none;
+}
+
+p{
+	line-height: 1.5;
+	text-align: justify;
+}
+
+h1{
+	font-size: 2.5rem;
+	font-family: 'Lobster Two', cursive;
+	color: #fff;
+	margin: 5px 0 0;
+}
+.intro{
+	font-size: 1.5rem;
+	line-height: 2.3;
+	color: #fff;
+	font-family: 'Lobster Two', cursive;
+}
+
+img{
+  max-width: 100%;  
+}
+
+
+section p{
+	width: 100%;
+	text-align: justify;
+}
+section{
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+#thumbnail{
+	width: 100%;
+}
+
+#thumbnail img{
+	width: 100%;
+	border: 3px solid #fff;
+	height: auto;
+	transform-origin: 0 0;
+}
+#thumbnail img:hover{
+	transform: scale(1.2);
+}
+
+main{
+	width: 80%;
+	margin: 0 auto;
+}
+
+/*******************************************
+HEADER
+********************************************/
+
+.header{
+   padding-top: 20px;
+   height: 650px;
+   background: #fff url('../cafe black.jpg')no-repeat center;
+   background-size: cover;
+   text-align: center;
+}
+.nav{
+	text-align: center;
+	padding: 60px 0;
+	margin: 50px 0 0;
+	font-size: 1.5rem;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+.nav ul{
+	list-style: none;	
+}
+.nav li{
+  display: inline-block;
+  background: #fff;
+  padding: 5px 10px;
+  font-weight: bolder;
+  border-radius: 30%;
+  transition-duration: .4s;
+  transition-property: background;
+ 
+}
+.nav li:hover{
+  
+  background: #C86428;
+}
+/*******************************************
+FOOTER
+********************************************/
+
+.footer{
+	padding-top: 1em;
+	background: olive;
+	clear: both;
+	border-bottom: 5px solid #C86428;
+    text-align: center;	
+}
+.col{
+	padding-left: 1em;
+	padding-right: 1em;	
+}
+.primary,
+.secondary,
+.tertiary{
+	width: 100%;
+	padding-bottom: 15px;
+}
+.note{
+	margin-top: -15px;
+	text-align: center;
+}
+
+/*******************************************
+MENU PAGE
+********************************************/
+
+#menu-items ul{
+	list-style: none;	
+}
+
+.price{
+	padding-left: 6px;
+	font-size: 1.5rem;
+	font-weight: 800;
+	
+}
+ 
+.picture{
+	border: 12px solid #fff;
+	width: 40%;
+	transform-origin: 0 0;
+	
+}
+.picture:hover{
+	transform: scale(1.2);
+}
+.return-button{
+	text-align: center;
+	font-weight: bold;
+	width: 40%;	
+}
+
+/*link*/
+
+a:link{
+  color: rgb(73, 212, 255);
+   
+}
+a:visited{
+	color: #008b8b;
+}
+
+
+
+
+@media only screen and (min-width:320px){
+	.intro{
+		line-height: 1;
+		font-size: 2.5rem;
+	}
+	
+	
+	
+	
+}
+
+@media only screen and (min-width:660px){
+ h1{
+  font-size: 4.5rem;
+  }
+  .intro{
+	font-size: 3rem;
+  }
+	
+.footer{
+	border-bottom: 5px solid #C86428;
+    text-align: center;	
+}
+
+#thumbnail{	
+    float: left;
+	width: 45%;
+	margin: 2.5%;	
+}
+	
+}
+
+@media only screen and (min-width:1140px){
+	
+.wrapper{
+	text-align: center;
+	width: 80%;
+	max-width: 1150px;
+	margin: 0 auto;	
+}
+
+#thumbnail{
+	width: 30%;
+	float: left;
+	margin: 10px;
+	background: #fff;
+	padding: 20px;	
+}
+.primary,
+.secondary{
+		width: 30%;
+		float: left;
+		text-align: center;
+	}
+
+.tertiary {
+		width: 40%;
+		float: right;
+		text-align: center;
+		padding-bottom: 10px;
+	}
+.note{
+	margin-top: 15px;
+	padding-top: 35px;
+	text-align: center;
+}
+
+
+	
+}
